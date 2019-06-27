@@ -2,6 +2,12 @@
 
 A Discord bot that integrates Trello and informs users of changes made to a Trello board. Created for Discord Hack Week 2019.
 
+![](https://i.imgur.com/vT2pGwe.png)
+![](https://i.imgur.com/RGiRlkp.png)
+![](https://i.imgur.com/eE9WqPs.png)
+![](https://i.imgur.com/V6ZaLlR.png)
+![](https://i.imgur.com/9QjTArW.png)
+
 ## Requirements
 
 TrelloBot runs on Node.js, using discord.js, Express, and a few other helper modules, all using the webhook features in Trello's Developer API. Since a webserver is required to accept webhook requests, it is recommended that the bot is hosted on a webserver for production. During testing, you can use [ngrok](https://ngrok.com/) to run on a local machine (more below). A Trello API key is required to create webhooks, and permisions to modify a board are also required.
